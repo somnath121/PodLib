@@ -3,8 +3,6 @@ name: AutomatedTrigger
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
@@ -15,3 +13,8 @@ jobs:
       run: sudo xcode-select -switch /Applications/Xcode_12.2.app
     - name: Run tests
       run: xcodebuild clean test -project "PodTest.xcodeproj" -scheme "PodUnitTests" -destination "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=latest"
+    - name: Publish to CocoaPod register
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+      run: |
+        pod trunk push PodTestSom.podspec
