@@ -1,14 +1,16 @@
 name: Swift
 
 on:
+  create:
+    
   push:
     branches: [ main ]
   pull_request:
-    tags: [ test_build_pr ]
     branches: [ main ]
 
 jobs:
   build:
+    if: (github.event_name == 'pull_request' && || contains(github.ref, '/tags/test/pr/'))|| (github.event_name == 'push' && (contains(github.ref, '/heads/master')))
 
     runs-on: macOS-latest
 
