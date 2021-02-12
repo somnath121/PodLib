@@ -16,4 +16,4 @@ jobs:
     - name: Force Xcode 12
       run: sudo xcode-select -switch /Applications/Xcode_12.2.app
     - name: Run tests
-      run: xcodebuild clean test -project "PodTest.xcodeproj" -scheme "PodTest" -destination "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=latest"
+      run: xcodebuild clean test -project "PodTest.xcodeproj" -scheme "PodUnitTest" -destination "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=latest"
