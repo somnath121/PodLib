@@ -26,6 +26,13 @@
 			remoteGlobalIDString = 5404AA9925D682A7005B0090;
 			remoteInfo = PodTest;
 		};
+		5404AADC25D6919C005B0090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5404AA9125D682A7005B0090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5404AAB925D68314005B0090;
+			remoteInfo = PodLibTestExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -167,6 +174,7 @@
 			);
 			dependencies = (
 				5404AAA625D682A7005B0090 /* PBXTargetDependency */,
+				5404AADD25D6919C005B0090 /* PBXTargetDependency */,
 			);
 			name = PodTestTests;
 			productName = PodTestTests;
@@ -291,6 +299,11 @@
 			isa = PBXTargetDependency;
 			target = 5404AA9925D682A7005B0090 /* PodTest */;
 			targetProxy = 5404AAA525D682A7005B0090 /* PBXContainerItemProxy */;
+		};
+		5404AADD25D6919C005B0090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5404AAB925D68314005B0090 /* PodLibTestExample */;
+			targetProxy = 5404AADC25D6919C005B0090 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
