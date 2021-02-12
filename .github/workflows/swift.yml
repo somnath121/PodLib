@@ -1,8 +1,6 @@
 name: Swift
 
 on:
-  create:
-    
   push:
     branches: [ main ]
   pull_request:
@@ -10,10 +8,7 @@ on:
 
 jobs:
   build:
-    if: (github.event_name == 'pull_request' && contains(github.ref, '/tags/'))|| (github.event_name == 'push' && (contains(github.ref, '/heads/master')))
-
     runs-on: macOS-latest
-
     steps:
     - uses: actions/checkout@v1
     - name: Force Xcode 12
