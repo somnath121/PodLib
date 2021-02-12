@@ -17,7 +17,7 @@ class PodTestTests: XCTestCase {
         }
 
         func testAdd() {
-            XCTAssertEqual(podTest.add(a: 5, b: 1), 6)
+            XCTAssertEqual(podTest.add(a: 4, b: 1), 5)
         }
         
         func testSub() {
