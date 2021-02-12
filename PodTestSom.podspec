@@ -40,7 +40,7 @@ This is for test
   #
 
   #spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +93,7 @@ This is for test
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PodLib/**/*.{h,m,swift}"
+  spec.source_files  = "PodTest/**/*.{h,m,swift}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
