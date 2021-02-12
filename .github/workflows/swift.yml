@@ -12,8 +12,8 @@ jobs:
     runs-on: 11.0.1
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build
-      run: swift build -v
+    - uses: actions/checkout@v1
+    - name: Force Xcode 12
+      run: sudo xcode-select -switch /Applications/Xcode_12.2.app
     - name: Run tests
-      run: swift test -v
+      run: xcodebuild clean test -project "PodLib.xcodeproj" -scheme "PodLib" -destination "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=latest"
