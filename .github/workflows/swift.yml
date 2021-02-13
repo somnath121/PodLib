@@ -17,4 +17,4 @@ jobs:
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
       run: |
-        pod trunk push PodTestSom.podspec
+        pod trunk push PodTestSom.podspec --allow-warnings
