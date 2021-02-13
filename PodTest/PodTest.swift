@@ -11,6 +11,10 @@ public final class PodTest {
 
     let name = "PodTest"
     
+    public init() {
+        
+    }
+    
     public func add(a: Int, b: Int) -> Int {
         return a + b
     }

@@ -7,17 +7,17 @@
 		<key>PodLibTestExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
 		</dict>
 		<key>PodTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>PodUnitTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -28,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>5404AAA225D682A7005B0090</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5404AAB925D68314005B0090</key>
 		<dict>
 			<key>primary</key>
 			<true/>
