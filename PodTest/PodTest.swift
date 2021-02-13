@@ -7,10 +7,7 @@
 
 import Foundation
 
-public final class PodTest {
-
-    let name = "PodTest"
-    
+public class PodTest {    
     public init() {
         
     }

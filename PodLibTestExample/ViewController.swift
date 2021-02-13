@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnClicked(_ sender: Any) {
-        let podTest = PodTest()
-        print("add: \(podTest.add(a: 4, b: 3))")
+//        let podTest = PodTest()
+//        print("add: \(podTest.add(a: 4, b: 3))")
     }
     
 }
