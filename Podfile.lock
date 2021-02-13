@@ -1,16 +1,16 @@
 PODS:
-  - PodTestSom (0.0.1)
+  - PodTestSom (0.0.2)
 
 DEPENDENCIES:
-  - PodTestSom
+  - PodTestSom (~> 0.0)
 
 SPEC REPOS:
   trunk:
     - PodTestSom
 
 SPEC CHECKSUMS:
-  PodTestSom: 856e4a02752f10c17c90b3c5d2651cb85043b670
+  PodTestSom: 9b070b906bc841bcdb82dab1fccebd7d4a8add67
 
-PODFILE CHECKSUM: be388cdacd0451513bd76243bbc2bb6829d2199c
+PODFILE CHECKSUM: 9cf75815157ddaaf759809ae447a2c2fd4637dae
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1
